@@ -1,0 +1,13 @@
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+}

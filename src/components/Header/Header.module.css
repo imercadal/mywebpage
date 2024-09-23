@@ -1,0 +1,50 @@
+.navbar {
+    height: 5rem;
+    padding: 0.2em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: visible;
+    box-sizing: border-box;
+}
+
+.leftNav{
+    display: flex;
+    flex: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navTitle {
+    cursor: pointer;
+    color: #120526;
+}
+
+.navLink {
+    display: flex;
+    margin-left: 3rem;
+}
+
+.navLink li {
+    display: inline;
+    text-decoration: none;
+    padding-left: 1rem;
+    color: #120526;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.rightNav{
+    display: flex;
+    flex: 3;  
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rightNav img{
+    margin: 0 20px;
+    height: auto;
+    max-height: 20px;
+}
+
